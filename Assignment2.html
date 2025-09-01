@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .book{
+            height:600px;
+            width:600px;
+            border: 2px solid black;
+            
+        }
+        .navbar{
+            background-color: rgb(110, 174, 230);
+        }
+        #but1{
+            text-decoration: none;
+        }
+        .raj{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="book">
+     <nav class="navbar">
+        <img src="htm_1.png" alt="logo" style="border-radius: 50%; height: 40px;">
+        <table align="center" class="table1" >
+            <tr>
+                    
+                <td>Book Sheet</td>
+            </tr>
+        </table>        
+    </nav>
+    <center>
+        <h2>*Welcome to bus booking system*</h2>
+
+    </center>
+    <div class="raj">
+    <div>
+    <h3>User Detail</h3>
+    <form>
+        <label for="name1">User Name:</label>
+        <input type="text" id="name1"> <br><br>
+
+        <label for="pass1">User Password:</label>
+        <input type="password" id="pass1"> <br><br>
+
+        <label >User Gender</label><br>
+        <input type="radio" id="raj" name="html" value="rrrrr">
+        <label >Male</label><br>
+        <input type="radio" id="raj" name="html" value="rrrrr">
+        <label >Female</label><br>
+        <br>
+        <label >User city</label>
+        <select>
+            <option >ghaziabad</option>
+            <option >Delhi</option>
+            <option >mumbai</option>
+            <option >Others</option>
+
+        </select><br><br>
+
+        <button>
+            <a href="booksheet.html" id="but1">Booksheet</a>
+        </button>
+    </form>
+    </div>
+    <div >
+        <img src="bus.jpg" alt="photo" height="100px" width="200px">
+    </div>
+    </div>
+    </div>
+    </center>
+</body>
+</html>
